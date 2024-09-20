@@ -1,0 +1,70 @@
+.q5 {
+  background-color: darkcyan;
+}
+
+.q2 {
+  margin-top: 2.3%;
+  width: 50%;
+  height: 700px;
+  background-color: aliceblue;
+  border-radius: 7px;
+  padding: 20px; 
+}
+
+
+@media (max-width: 768px) {
+  .q2 {
+    width: 90%; 
+    height: auto; 
+  }
+}
+
+.firma, .firma2 {
+  font-family: 'arial', cursive;
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+.firma2 {
+  color: #000000;
+}
+
+
+@media (max-width: 768px) {
+  .firma, .firma2 {
+    font-size: 12px; 
+  }
+}
+
+.w1 {
+  width: 85%;
+}
+
+
+@media (max-width: 768px) {
+  .w1 {
+    width: 100%; 
+  }
+}
+
+.s1 {
+  margin-top: -1%;
+  font-size: 14px;
+  margin-left: 5%;
+  width: 55%;
+}
+
+
+@media (max-width: 768px) {
+  .s1 {
+    font-size: 12px; 
+    width: 90%; 
+    margin-left: 0%; 
+  }
+}
+
+
+img {
+  max-width: 100%; 
+  height: auto;
+}
